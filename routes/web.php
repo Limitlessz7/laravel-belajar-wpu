@@ -9,4 +9,11 @@ Route::get('/', function () {
         return view('dashboard',['nama' => 'DPR AJG']);
         
     });
+    route::get('/blogspot',function(){
+        return view('blogspot');
+    });
+    route::get('tentang',function(){
+        return view('tentang');
+    });
+    
 
